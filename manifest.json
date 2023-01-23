@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Unfreinder for Roblox",
+    "description": "A minimal example of a chrome extension using manifest v3",
+    "version": "0.0.1",
+    "icons": {
+        "16": "assets/logos/logozoom-16.png",
+        "48": "assets/logos/logozoom-48.png",
+        "128": "assets/logos/logofull-128.png"
+    },
+    "content_scripts": [{
+        "js": ["foreground.js"],
+        "matches": ["https://www.roblox.com/*"]
+    }]
+}
